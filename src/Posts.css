@@ -1,0 +1,41 @@
+.posts-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .post-item {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .post-details h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .post-details p {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .post-author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
